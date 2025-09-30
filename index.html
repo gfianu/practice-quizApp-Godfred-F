@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Practice 2 Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>IA Trivia Quiz App</h1>
+      <p id="progress" class="hi">Question 1 of 1</p>.   
+    </header>
+
+    <section id="question-container">
+      <h2 id="question" class="question">Loading…</h2>
+    </section>
+
+    <section id="answers" class="answers">
+      <button class="btn-answer" data-index="0">A</button>
+      <button class="btn-answer" data-index="1">B</button>
+      <button class="btn-answer" data-index="2">C</button>
+      <button class="btn-answer" data-index="3">D</button>
+    </section>
+
+
+//fixed it here i think AAS
+    <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+
+    <div class="row">
+      <div id="score" class="hi">Score: 0</div>
+      <button id="nextBtn" class="btn-primary" disabled>Next Question</button>
+    </div>
+  </main>
+</body>
+</html>
