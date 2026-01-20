@@ -1,28 +1,46 @@
-Practice 2: Quiz App
-Instructions
-Create an interactive quiz application that uses event handlers to capture user
-input, dynamically update the DOM, and provide feedback to the user. This activity
-will help students practice managing events, dynamically manipulating the DOM,
-and attaching/removing event listeners.
-Tasks
-1. HTML Setup:
-Create a basic HTML structure with the following elements:
-● The question text.
-● Four buttons for answer choices.
-● An element to display feedback after an answer is selected.
-● A “Next Question” button to move onto the next question.
-2. JavaScript Functionality:
-● Display Question:
-○ Use an array of question objects, each containing:
-■ A question string.
-■ An array of four answer choices.
-■ The index of the correct answer.
-● Handle Answer Selection:
-○ Add click event listeners to the answer buttons.
-○ When a button is clicked, check if the selected answer is correct and
-update the feedback element accordingly.
-○ Disable all answer buttons after a selection to prevent further clicks.
-● Next Question:
-○ Attach an event listener to the "Next Question" button.
-○ When clicked, load the next question and re-enable the answer
-buttons.
+# Practice 2: Quiz App
+
+## Overview
+This project is an interactive quiz application designed to reinforce core JavaScript concepts such as event handling, DOM manipulation, and user interaction. The application dynamically displays questions, captures user input, and provides immediate feedback based on selected answers.
+
+## Learning Objectives
+By completing this activity, students will practice:
+- Managing JavaScript event listeners
+- Dynamically updating the DOM
+- Handling user input and application state
+- Enabling and disabling UI elements based on user actions
+
+## Project Requirements
+
+### 1. HTML Setup
+Create a basic HTML structure that includes:
+- A container for displaying the quiz question
+- Four buttons for answer choices
+- A feedback element to display correct or incorrect responses
+- A **Next Question** button to advance through the quiz
+
+### 2. JavaScript Functionality
+
+#### Display Questions
+- Use an array of question objects, where each object contains:
+  - A question string
+  - An array of four answer choices
+  - The index of the correct answer
+
+#### Handle Answer Selection
+- Attach click event listeners to each answer button
+- When an answer is selected:
+  - Check whether the selected answer is correct
+  - Update the feedback element accordingly
+  - Disable all answer buttons to prevent multiple selections
+
+#### Next Question Navigation
+- Attach an event listener to the **Next Question** button
+- When clicked:
+  - Load the next question
+  - Reset the feedback message
+  - Re-enable the answer buttons
+
+## Notes
+This project emphasizes JavaScript logic and user interaction. Styling is optional but may be added to improve usability and presentation.
+
